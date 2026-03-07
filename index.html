@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MementoMori 伤害计算器</title>
+    <base href="/mmtm-damage-calc/" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+        body { margin: 0; font-family: 'Roboto', sans-serif; }
+        .loading-progress { position: relative; display: block; width: 8rem; height: 8rem; margin: 20vh auto 1rem; }
+        .loading-progress circle { fill: none; stroke: #1976d2; stroke-width: 0.3rem; transform-origin: 50% 50%; transform: rotate(-90deg); }
+        .loading-progress circle:last-child { stroke-dasharray: calc(3.14 * 80%); stroke-dashoffset: calc(3.14 * 80%); }
+        .loading-progress-text { text-align: center; font-weight: bold; }
+        .loading-progress-text:after { content: var(--blazor-load-percentage-text, "Loading"); }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui" style="display:none;">
+        发生了未处理的错误。
+        <a href="." class="reload">重新加载</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+</body>
+
+</html>
