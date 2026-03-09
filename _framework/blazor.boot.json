@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MementoMori.DamageCalculator.Wasm",
   "resources": {
-    "hash": "sha256-8eBCvJkrqYpAucWY+ayLcIUxjuEl/JXmK2byAAZQr/c=",
+    "hash": "sha256-wP3+B7Ov9ZPfMGS5qWsX8jXU6hADePgGmbyeqSixUG4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.teo81qy81c.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.gc94iuciq3.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -42,7 +42,7 @@
       "System.Text.RegularExpressions.bn0o31bv94.wasm": "System.Text.RegularExpressions.wasm",
       "System.f0t8bkq7p2.wasm": "System.wasm",
       "System.Private.CoreLib.zzbkh6tp1e.wasm": "System.Private.CoreLib.wasm",
-      "MementoMori.DamageCalculator.Wasm.g1ntoigfxm.wasm": "MementoMori.DamageCalculator.Wasm.wasm",
+      "MementoMori.DamageCalculator.Wasm.gy5xf4zzxl.wasm": "MementoMori.DamageCalculator.Wasm.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.6m0hb3g78a.js": "dotnet.native.js",
       "dotnet.native.zw8ib5pvmp.wasm": "dotnet.native.wasm",
@@ -107,7 +107,7 @@
       "System.Text.Json.i1v2ssore3.wasm": "sha256-WiqiKYO1gji256AYHpnP/1DI/VZ1bzItce3fD5oRTCw=",
       "System.Text.RegularExpressions.bn0o31bv94.wasm": "sha256-ue+u2+JWG3eGkGqDV+56QDKJHYE0iScKiTG+4Jgp9fw=",
       "System.f0t8bkq7p2.wasm": "sha256-319B7WIXJ7ZD6SZ1l7es3CoglOLgv5lKWx0Ew9mli1c=",
-      "MementoMori.DamageCalculator.Wasm.g1ntoigfxm.wasm": "sha256-5HkLh2SmhJQEB6QgbCxRQC1nXqcJJiT2w95oY/ikupI="
+      "MementoMori.DamageCalculator.Wasm.gy5xf4zzxl.wasm": "sha256-aIuJuXcC+Oga7gHqQKD8Hs2rOEB3yPzDjY6Fj8tjN2M="
     }
   },
   "cacheBootResources": true,
